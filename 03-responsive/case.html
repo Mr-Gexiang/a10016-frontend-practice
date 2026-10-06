@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>课程展示 · CSS布局案例</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="css-page">
+  <header class="site-header"><nav class="plain-nav container" aria-label="作业导航"><a class="brand" href="case.html">课程展示</a><div><a href="../index.html">作业目录</a><a href="case-bootstrap.html">Bootstrap版本</a><a href="index.html">自主实践</a></div></nav></header>
+  <main class="container">
+    <section class="intro"><p class="eyebrow">课堂作业 03 · 案例复现 · CSS版本</p><h1>前端开发课程中心</h1><p>导航使用 Flexbox，课程卡片使用 CSS Grid；通过媒体查询适配桌面、平板和手机。</p></section>
+    <section aria-labelledby="course-title"><div class="section-heading"><h2 id="course-title">推荐课程</h2><span class="layout-note">手机1列 · 平板2列 · 桌面3列</span></div>
+      <div class="course-grid">
+        <article class="course-card"><div class="course-label">HTML</div><h3>HTML基础</h3><p>学习文档结构、常用标签和语义化页面组织。</p><a class="course-button" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML">查看课程资料</a></article>
+        <article class="course-card"><div class="course-label">CSS</div><h3>CSS页面设计</h3><p>掌握选择器、盒模型以及颜色、字体与间距设置。</p><a class="course-button" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS">查看课程资料</a></article>
+        <article class="course-card"><div class="course-label">Layout</div><h3>响应式布局</h3><p>通过 Flexbox、Grid 与媒体查询适配不同屏幕。</p><a class="course-button" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_grid_layout">查看课程资料</a></article>
+        <article class="course-card"><div class="course-label">JavaScript</div><h3>JavaScript基础</h3><p>学习变量、条件、循环、数组和函数等基础语法。</p><a class="course-button" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript">查看课程资料</a></article>
+        <article class="course-card"><div class="course-label">DOM</div><h3>网页交互</h3><p>操作页面元素，使用事件处理实现动态交互。</p><a class="course-button" href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model">查看课程资料</a></article>
+        <article class="course-card"><div class="course-label">Bootstrap</div><h3>组件与栅格</h3><p>利用栅格和常用组件完成规范的响应式页面。</p><a class="course-button" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">查看课程资料</a></article>
+      </div>
+    </section>
+    <aside class="layout-summary"><h2>断点说明</h2><p>小于576px为一列，576px起为两列，992px起为三列；卡片按钮通过 Flexbox 保持底部对齐。</p></aside>
+  </main>
+  <footer class="container">课程展示案例 · 纯CSS布局</footer>
+</body>
+</html>
