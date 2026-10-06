@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>课程反馈采集 · 案例复现</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="form.js" defer></script>
+</head>
+<body>
+  <header><nav class="container" aria-label="作业导航"><a class="brand" href="case.html">课程反馈采集</a><div><a href="../index.html">作业目录</a><a href="index.html">自主实践</a></div></nav></header>
+  <main class="container">
+    <section class="intro"><p class="eyebrow">课堂作业 02 · 案例复现</p><h1>Web前端课程反馈表</h1><p>使用语义化结构组织内容，通过不同表单控件采集课程反馈。填写演示信息即可，提交后在本页显示成功提示。</p></section>
+    <section class="form-panel" aria-labelledby="feedback-title">
+      <h2 id="feedback-title">反馈内容</h2>
+      <form data-success="课程反馈已通过校验，演示提交成功。此操作未发送数据。">
+        <div class="form-grid">
+          <div class="field"><label for="feedback-name">演示昵称 *</label><input id="feedback-name" name="nickname" type="text" minlength="2" maxlength="12" required placeholder="例如：学习同学" autocomplete="off"></div>
+          <div class="field"><label for="feedback-email">示例邮箱 *</label><input id="feedback-email" name="email" type="email" required placeholder="student@example.com" autocomplete="off"></div>
+          <div class="field"><label for="course">反馈课程 *</label><select id="course" name="course" required><option value="">请选择课程</option><option>Web前端开发</option><option>程序设计基础</option><option>计算机应用基础</option></select></div>
+          <div class="field"><label for="study-hours">每周学习时长 *</label><input id="study-hours" name="hours" type="number" min="1" max="40" step="1" required><small>1—40小时</small></div>
+        </div>
+        <fieldset><legend>课程满意度 *</legend><div class="choices"><label for="rating-good"><input id="rating-good" name="rating" type="radio" value="满意" checked required> 满意</label><label for="rating-normal"><input id="rating-normal" name="rating" type="radio" value="一般"> 一般</label><label for="rating-low"><input id="rating-low" name="rating" type="radio" value="需改进"> 需改进</label></div></fieldset>
+        <fieldset><legend>感兴趣的内容（可多选）</legend><div class="choices"><label for="topic-html"><input id="topic-html" name="topics" type="checkbox" value="HTML"> HTML</label><label for="topic-css"><input id="topic-css" name="topics" type="checkbox" value="CSS"> CSS</label><label for="topic-js"><input id="topic-js" name="topics" type="checkbox" value="JavaScript"> JavaScript</label></div></fieldset>
+        <div class="field"><label for="difficulty">课程难度：<span data-range-value>3</span> / 5</label><input id="difficulty" name="difficulty" type="range" min="1" max="5" step="1" value="3"></div>
+        <div class="field"><label for="suggestion">改进建议 *</label><textarea id="suggestion" name="suggestion" rows="4" minlength="5" maxlength="200" required placeholder="至少5个字符，最多200个字符"></textarea></div>
+        <div class="actions"><button type="submit">提交反馈</button><button class="secondary" type="reset">重置表单</button></div>
+        <p class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="tips"><h2>表单说明</h2><p>案例使用文本、邮箱、数字、下拉菜单、单选、复选、滑块和多行文本八类控件，所有控件均有对应标签。</p></section>
+  </main>
+  <footer class="container">课程反馈案例 · 仅本地演示</footer>
+</body>
+</html>
