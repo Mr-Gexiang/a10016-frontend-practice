@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自习室占用率统计 · JavaScript 基础</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="occupancy.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="作业导航"><a href="../index.html">作业目录</a><a href="case.html">案例：班级成绩统计</a><a href="../05-dom/index.html">下一项：预约管理</a></nav>
+    <h1>自习室占用率统计</h1>
+    <p>编辑房间数据，查看有效记录、总占用率和高占用房间。</p>
+  </header>
+  <main>
+    <section aria-labelledby="input-heading">
+      <h2 id="input-heading">1. 输入数据</h2>
+      <p class="hint" id="format-help">每条记录含 room（房间名称）、capacity（总座位）和 occupied（已占用）。座位数必须为整数，总座位大于 0，已占用介于 0 和总座位之间。</p>
+      <form id="occupancy-form">
+        <label for="data-input">JSON 数据数组</label>
+        <textarea id="data-input" aria-describedby="format-help" spellcheck="false"></textarea>
+        <div class="actions">
+          <button type="submit">计算占用率</button>
+          <button type="button" class="secondary" id="demo-button">正常数据</button>
+          <button type="button" class="secondary" id="invalid-button">含非法数据</button>
+          <button type="button" class="secondary" id="empty-button">空数组</button>
+        </div>
+        <p id="input-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">2. 统计结果</h2>
+      <div class="stats">
+        <div class="stat">有效房间<strong id="room-count">0</strong></div>
+        <div class="stat">总座位<strong id="total-capacity">0</strong></div>
+        <div class="stat">已占用<strong id="total-occupied">0</strong></div>
+        <div class="stat">总占用率<strong id="overall-rate">—</strong></div>
+      </div>
+      <p id="busy-rooms" class="muted"></p>
+      <div class="table-wrap"><table><caption>各自习室占用情况</caption><thead><tr><th scope="col">房间</th><th scope="col">总座位</th><th scope="col">已占用</th><th scope="col">剩余</th><th scope="col">占用率</th></tr></thead><tbody id="room-rows"></tbody></table></div>
+      <p id="result-empty" class="empty" hidden>没有有效记录，请输入数据后重新计算。</p>
+      <details id="invalid-details" hidden><summary>被过滤的非法记录</summary><ul id="invalid-list"></ul></details>
+    </section>
+  </main>
+  <footer>演示数据为自建示例。打开浏览器控制台可查看同一份统计结果。</footer>
+</body>
+</html>
