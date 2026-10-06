@@ -1,0 +1,25 @@
+{
+  "title": "自习室使用情况",
+  "source": "自建演示JSON，非真实校园统计",
+  "unit": "人",
+  "rooms": [
+    { "name": "101", "floor": 1, "capacity": 30, "occupied": 18 },
+    { "name": "102", "floor": 1, "capacity": 36, "occupied": 24 },
+    { "name": "103", "floor": 1, "capacity": 30, "occupied": 19 },
+    { "name": "104", "floor": 1, "capacity": 24, "occupied": 16 },
+    { "name": "201", "floor": 2, "capacity": 36, "occupied": 21 },
+    { "name": "202", "floor": 2, "capacity": 40, "occupied": 27 },
+    { "name": "203", "floor": 2, "capacity": 30, "occupied": 18 },
+    { "name": "204", "floor": 2, "capacity": 34, "occupied": 25 }
+  ],
+  "trend": [
+    { "time": "08:00", "floor1": 24, "floor2": 31 },
+    { "time": "10:00", "floor1": 38, "floor2": 42 },
+    { "time": "12:00", "floor1": 50, "floor2": 58 },
+    { "time": "14:00", "floor1": 62, "floor2": 73 },
+    { "time": "16:00", "floor1": 69, "floor2": 82 },
+    { "time": "18:00", "floor1": 75, "floor2": 87 },
+    { "time": "20:00", "floor1": 78, "floor2": 91 },
+    { "time": "22:00", "floor1": 77, "floor2": 91 }
+  ]
+}
