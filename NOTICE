@@ -3,7 +3,7 @@
 全部页面仅使用免费开源库，不使用付费API、云数据库或付费部署。
 
 Bootstrap 5.3.3（MIT）、jQuery 3.7.1（MIT）、Chart.js 4.4.8（MIT）、Three.js 0.160.1（MIT）、A-Frame 1.7.0（MIT）、Apache ECharts 5.6.0（Apache-2.0）。库及许可证位于 vendor/。
-许可证原文：[Bootstrap](vendor/bootstrap-LICENSE.md)、[jQuery](vendor/jquery-LICENSE.md)、[Chart.js](vendor/chart-LICENSE.md)、[Three.js](vendor/three-LICENSE.md)、[A-Frame](vendor/aframe-LICENSE.md)、[ECharts](vendor/echarts-LICENSE.md)。
+许可证原文：[Bootstrap](vendor/bootstrap-LICENSE)、[jQuery](vendor/jquery-LICENSE)、[Chart.js](vendor/chart-LICENSE)、[Three.js](vendor/three-LICENSE)、[A-Frame](vendor/aframe-LICENSE)、[ECharts](vendor/echarts-LICENSE)。
 下载来源为各项目 npm 发行包的 jsDelivr 镜像；Three.js 与 OrbitControls 版本一致。
 
 主题照片：Robert-brook，The interior of the Reading Room of the British Museum，CC0；仅为主题配图，不表示实际校园自习室。
