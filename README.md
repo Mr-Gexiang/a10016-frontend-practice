@@ -12,7 +12,7 @@
 ```sh
 python -m http.server 8000
 ```
-浏览器打开 http://localhost:8000/。含fetch的页面需要通过HTTP访问，不能直接双击HTML。
+浏览器打开 [http://localhost:8000/](http://localhost:8000/)。含fetch的页面需要通过HTTP访问，不能直接双击HTML。
 也可使用免费 VS Code Live Server。Chrome/Edge支持WebGL时可显示三维场景。
 
 ## 作业入口
