@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>图书数据看板 · 案例复现</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a href="../index.html">← 作业目录</a><nav><a href="index.html">自主作品：自习室看板 →</a></nav></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">06 / 案例复现</p><h1 id="title">图书数据看板</h1><p class="subtitle">本地JSON数据驱动的双库图表。</p></div><span class="badge">ECharts + Chart.js</span></div>
+    <p id="status" class="status" role="status" aria-live="polite">正在加载图书数据……</p>
+    <div id="content" hidden>
+      <section class="stats" aria-label="图书统计摘要">
+        <article><span>图书分类</span><strong id="category-total">—</strong><small>类</small></article>
+        <article><span>总藏书量</span><strong id="book-total">—</strong><small>册</small></article>
+        <article><span>本期借阅量</span><strong id="borrow-total">—</strong><small>册</small></article>
+      </section>
+      <section class="charts">
+        <article class="chart-card"><h2>分类藏书量</h2><p>单位：册 · ECharts柱形图</p><div id="book-chart" class="chart" role="img" aria-label="分类藏书量柱形图"></div></article>
+        <article class="chart-card"><h2>月度借阅量</h2><p>单位：册 · Chart.js折线图</p><div class="chart"><canvas id="borrow-chart" role="img" aria-label="月度借阅量折线图"></canvas></div></article>
+      </section>
+      <p class="source">数据来源：自建books.json演示数据，非真实图书馆统计。</p>
+    </div>
+    <footer><a href="case.html">重新加载</a> · <a href="index.html">查看自主作品</a></footer>
+  </main>
+  <script src="../vendor/echarts.min.js"></script>
+  <script src="../vendor/chart.umd.js"></script>
+  <script src="case.js"></script>
+</body>
+</html>
