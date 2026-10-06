@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自习室预约 · 语义化HTML与表单</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="form.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="container" aria-label="作业导航">
+      <a class="brand" href="index.html">自习室预约</a>
+      <div><a href="../index.html">作业目录</a><a href="case.html">案例复现</a></div>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="intro">
+      <p class="eyebrow">课堂作业 02 · 自主实践</p>
+      <h1>安排下一次专注学习</h1>
+      <p>填写演示预约信息，体验 HTML 表单控件与浏览器校验。请使用演示昵称和示例邮箱，提交结果仅显示在本页。</p>
+    </section>
+    <section class="form-panel" aria-labelledby="booking-title">
+      <h2 id="booking-title">预约信息</h2>
+      <p class="hint">带 * 的项目必填。演示场景无需真实姓名、学号或联系方式。</p>
+      <form data-success="预约信息已通过校验，演示预约提交成功。此操作未发送数据。">
+        <div class="form-grid">
+          <div class="field"><label for="nickname">演示昵称 *</label><input id="nickname" name="nickname" type="text" placeholder="例如：学习同学" required minlength="2" maxlength="12" autocomplete="off"><small>2—12个字符</small></div>
+          <div class="field"><label for="email">示例邮箱 *</label><input id="email" name="email" type="email" placeholder="student@example.com" required autocomplete="off"><small>使用示例邮箱即可</small></div>
+          <div class="field"><label for="room">预约区域 *</label><select id="room" name="room" required><option value="">请选择区域</option><option>图书馆安静区</option><option>教学楼研讨区</option><option>宿舍学习区</option></select></div>
+          <div class="field"><label for="people">使用人数 *</label><input id="people" name="people" type="number" min="1" max="4" step="1" value="1" required><small>每次演示预约1—4人</small></div>
+          <div class="field"><label for="date">预约日期 *</label><input id="date" name="date" type="date" required></div>
+          <div class="field"><label for="time">开始时间 *</label><input id="time" name="time" type="time" min="08:00" max="21:00" required><small>可选时间08:00—21:00</small></div>
+        </div>
+        <fieldset><legend>学习方式 *</legend><div class="choices"><label for="mode-alone"><input id="mode-alone" name="mode" type="radio" value="独立学习" required checked> 独立学习</label><label for="mode-group"><input id="mode-group" name="mode" type="radio" value="小组研讨"> 小组研讨</label></div></fieldset>
+        <fieldset><legend>配套需求（可多选）</legend><div class="choices"><label for="need-power"><input id="need-power" name="needs" type="checkbox" value="插座"> 插座</label><label for="need-window"><input id="need-window" name="needs" type="checkbox" value="靠窗座位"> 靠窗座位</label><label for="need-board"><input id="need-board" name="needs" type="checkbox" value="讨论白板"> 讨论白板</label></div></fieldset>
+        <div class="field"><label for="notes">备注</label><textarea id="notes" name="notes" rows="3" maxlength="200" placeholder="可填写学习内容或座位需求（最多200字）"></textarea></div>
+        <label class="agreement" for="agree"><input id="agree" name="agree" type="checkbox" required> 我已阅读预约提示，并会维护自习室秩序 *</label>
+        <div class="actions"><button type="submit">提交演示预约</button><button class="secondary" type="reset">重置表单</button></div>
+        <p class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="tips"><h2>预约提示</h2><p>本表单包含文本、邮箱、数字、日期、时间、单选、复选、下拉菜单和多行文本九类控件；使用 required、minlength、maxlength、min、max 等属性校验输入。</p></section>
+  </main>
+  <footer class="container">校园自习室 · 本地表单演示</footer>
+</body>
+</html>
