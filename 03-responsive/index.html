@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自习空间展示 · 响应式布局</title>
+  <link rel="stylesheet" href="../vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="../vendor/bootstrap.bundle.min.js" defer></script>
+</head>
+<body class="bootstrap-page">
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md container" aria-label="作业导航">
+      <a class="navbar-brand brand" href="index.html">校园自习空间</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#room-nav" aria-controls="room-nav" aria-expanded="false" aria-label="展开或收起导航"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="room-nav"><div class="navbar-nav ms-auto"><a class="nav-link" href="../index.html">作业目录</a><a class="nav-link" href="case.html">CSS案例</a><a class="nav-link" href="case-bootstrap.html">Bootstrap案例</a></div></div>
+    </nav>
+  </header>
+  <main class="container py-4 py-lg-5">
+    <section class="intro"><p class="eyebrow">课堂作业 03 · 自主实践</p><h1>找到适合你的学习空间</h1><p>六个自习空间，覆盖独立阅读、课程讨论与晚间复习。以下座位和开放时间均为演示数据。</p></section>
+    <section aria-labelledby="space-title">
+      <div class="section-heading"><h2 id="space-title">空间一览</h2><span class="layout-note">手机1列 · 平板2列 · 桌面3列</span></div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+        <div class="col"><article class="card h-100"><div class="space-banner library"><span class="badge text-bg-light">安静阅读</span><span aria-hidden="true">01</span></div><div class="card-body"><h3 class="card-title">图书馆一楼</h3><p class="card-text">靠窗阅读区，适合独立阅读与资料整理。</p><p class="meta">40个座位 · 08:00—22:00</p><a class="btn btn-outline-success" href="../02-form/index.html">预约此区域</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="space-banner quiet"><span class="badge text-bg-light">专注复习</span><span aria-hidden="true">02</span></div><div class="card-body"><h3 class="card-title">图书馆二楼</h3><p class="card-text">低声环境，适合备考复习与长时间学习。</p><p class="meta">60个座位 · 08:00—22:00</p><a class="btn btn-outline-success" href="../02-form/index.html">预约此区域</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="space-banner discuss"><span class="badge text-bg-light">小组研讨</span><span aria-hidden="true">03</span></div><div class="card-body"><h3 class="card-title">教学楼研讨室</h3><p class="card-text">配有讨论白板，适合小组作业和课程交流。</p><p class="meta">24个座位 · 09:00—21:00</p><a class="btn btn-outline-success" href="../02-form/index.html">预约此区域</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="space-banner bright"><span class="badge text-bg-light">明亮通透</span><span aria-hidden="true">04</span></div><div class="card-body"><h3 class="card-title">教学楼公共区</h3><p class="card-text">利用课间碎片时间，完成短时阅读与笔记整理。</p><p class="meta">32个座位 · 09:00—21:00</p><a class="btn btn-outline-success" href="../02-form/index.html">预约此区域</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="space-banner evening"><span class="badge text-bg-light">晚间自习</span><span aria-hidden="true">05</span></div><div class="card-body"><h3 class="card-title">宿舍学习区</h3><p class="card-text">靠近宿舍，方便晚间复习与整理第二天学习计划。</p><p class="meta">20个座位 · 18:00—23:00</p><a class="btn btn-outline-success" href="../02-form/index.html">预约此区域</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="space-banner creative"><span class="badge text-bg-light">协作学习</span><span aria-hidden="true">06</span></div><div class="card-body"><h3 class="card-title">学生活动中心</h3><p class="card-text">开放的交流空间，适合项目策划与团队学习。</p><p class="meta">36个座位 · 10:00—21:00</p><a class="btn btn-outline-success" href="../02-form/index.html">预约此区域</a></div></article></div>
+      </div>
+    </section>
+    <aside class="layout-summary"><h2>布局实现</h2><p>使用 Bootstrap 的 container、row、col 和响应式列数；导航栏、卡片、徽章和按钮组件配合自定义颜色与间距。</p></aside>
+  </main>
+  <footer class="container">校园自习室 · 响应式布局实践</footer>
+</body>
+</html>
