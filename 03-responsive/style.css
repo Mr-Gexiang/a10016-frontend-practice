@@ -1,0 +1,60 @@
+:root { --ink: #183a38; --muted: #526b66; --accent: #247568; --line: #dce8e2; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: #f5f8f5; font: 16px/1.7 "Microsoft YaHei", "PingFang SC", sans-serif; }
+a { color: var(--accent); text-underline-offset: 4px; }
+a:focus-visible, button:focus-visible { outline: 3px solid #dbad50; outline-offset: 4px; }
+.container { width: min(1140px, calc(100% - 40px)); margin-inline: auto; }
+.site-header { background: #fff; border-bottom: 1px solid var(--line); }
+.brand { color: var(--ink); font-size: 20px; font-weight: 700; text-decoration: none; }
+.plain-nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 20px; }
+.plain-nav div { display: flex; gap: 20px; flex-wrap: wrap; }
+.css-page main { padding-top: 36px; }
+.intro { max-width: 760px; margin-bottom: 30px; }
+.eyebrow { margin-bottom: 10px; color: var(--accent); font-size: 14px; font-weight: 700; }
+h1 { margin-block: 8px 16px; font-size: clamp(27px, 4vw, 38px); line-height: 1.4; }
+h2 { font-size: 24px; }
+.intro p:last-child { color: var(--muted); }
+.section-heading { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 20px; flex-wrap: wrap; }
+.section-heading h2 { margin: 0; }
+.layout-note { color: var(--muted); font-size: 13px; }
+.course-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; }
+.course-card { display: flex; flex-direction: column; min-width: 0; padding: 28px; background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+.course-label { margin-bottom: 16px; color: var(--accent); font-size: 14px; font-weight: 700; }
+.course-card h3 { margin-block: 0 10px; font-size: 22px; }
+.course-card p { margin-block: 0 24px; color: var(--muted); }
+.course-button { align-self: flex-start; margin-top: auto; padding: 9px 16px; border: 1px solid var(--accent); border-radius: 6px; text-decoration: none; }
+.course-button:hover { background: var(--accent); color: #fff; }
+.layout-summary { margin-block: 32px; padding: 24px 28px; background: #e8f0eb; border-radius: 10px; }
+.layout-summary h2 { margin-top: 0; margin-bottom: 12px; }
+.layout-summary p { margin-bottom: 0; color: var(--muted); }
+footer { padding-block: 24px; color: var(--muted); font-size: 14px; }
+.bootstrap-page .navbar { padding-block: 16px; }
+.bootstrap-page .navbar-brand { margin-right: 20px; }
+.bootstrap-page .nav-link { color: var(--muted); padding-inline: 12px; }
+.bootstrap-page .nav-link:hover { color: var(--accent); }
+.bootstrap-page .navbar-toggler { border-color: #b7cfc5; }
+.bootstrap-page .card { border-color: var(--line); border-radius: 12px; overflow: hidden; background: #fff; }
+.bootstrap-page .card-body { display: flex; flex-direction: column; padding: 24px; }
+.bootstrap-page .card-title { margin-bottom: 12px; font-size: 22px; }
+.bootstrap-page .card-text { color: var(--muted); }
+.bootstrap-page .btn { align-self: flex-start; margin-top: auto; border-radius: 6px; }
+.bootstrap-page .btn-outline-success { --bs-btn-color: #247568; --bs-btn-border-color: #247568; --bs-btn-hover-bg: #247568; --bs-btn-hover-border-color: #247568; --bs-btn-active-bg: #247568; --bs-btn-active-border-color: #247568; }
+.space-banner { display: flex; align-items: center; justify-content: space-between; height: 100px; padding: 22px 24px; color: #fff; }
+.space-banner > span:last-child { font-size: 34px; font-weight: 700; opacity: .75; }
+.space-banner .badge { font-size: 13px; font-weight: 500; }
+.library { background: #386f60; }
+.quiet { background: #557871; }
+.discuss { background: #91714c; }
+.bright { background: #718554; }
+.evening { background: #596980; }
+.creative { background: #886a78; }
+.meta { margin-bottom: 22px; color: var(--muted); font-size: 13px; }
+@media (min-width: 576px) { .course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 992px) { .course-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 575px) {
+  .container { width: calc(100% - 28px); }
+  .plain-nav { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .plain-nav div { gap: 10px 18px; }
+  .course-card { padding: 22px; }
+  .layout-summary { padding: 22px; }
+}
