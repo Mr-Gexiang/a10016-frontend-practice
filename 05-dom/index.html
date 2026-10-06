@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自习室预约管理 · DOM 与交互</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="reservations.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="作业导航"><a href="../index.html">作业目录</a><a href="case.html">案例：Todo</a><a href="../04-javascript/index.html">上一项：占用率统计</a><a href="../06-dashboard/index.html">下一项：异步与图表</a></nav>
+    <h1>自习室预约管理</h1>
+    <p>新增、修改、删除与查询预约。记录保存在当前浏览器，刷新后自动恢复。</p>
+  </header>
+  <main>
+    <section aria-labelledby="form-heading">
+      <h2 id="form-heading">新增预约</h2>
+      <p class="hint" id="booking-help">使用昵称即可。相同昵称在同一房间、日期、时段不能重复预约；此页为前端演示，不发送个人信息到服务器。</p>
+      <form id="reservation-form" novalidate>
+        <div class="grid-form">
+          <div><label for="nickname">预约昵称</label><input id="nickname" name="nickname" maxlength="20" required autocomplete="off" placeholder="请输入 1—20 个字" aria-describedby="booking-help"></div>
+          <div><label for="room">自习室</label><select id="room" name="room" required><option value="">请选择自习室</option><option>图书馆 A101</option><option>图书馆 A102</option><option>图书馆 B201</option><option>图书馆 B202</option><option>教学楼 C101</option><option>教学楼 C102</option><option>教学楼 D201</option><option>教学楼 D202</option></select></div>
+          <div><label for="booking-date">预约日期</label><input id="booking-date" name="date" type="date" required></div>
+          <div><label for="time-slot">预约时段</label><select id="time-slot" name="slot" required><option value="">请选择时段</option><option value="08:00—12:00">上午 08:00—12:00</option><option value="14:00—18:00">下午 14:00—18:00</option><option value="19:00—22:00">晚上 19:00—22:00</option></select></div>
+        </div>
+        <div class="actions"><button id="save-button" type="submit">添加预约</button><button id="cancel-edit" type="button" class="secondary" hidden>取消修改</button><button id="sample-button" type="button" class="secondary">添加示例记录</button></div>
+        <p id="booking-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section aria-labelledby="list-heading">
+      <h2 id="list-heading">预约记录</h2>
+      <div class="filters">
+        <div><label for="booking-search">查询昵称、日期或时段</label><input type="search" id="booking-search" placeholder="例如：示例、2026-10、上午对应的 08:00"></div>
+        <div><label for="room-filter">按自习室筛选</label><select id="room-filter"><option value="all">全部自习室</option><option>图书馆 A101</option><option>图书馆 A102</option><option>图书馆 B201</option><option>图书馆 B202</option><option>教学楼 C101</option><option>教学楼 C102</option><option>教学楼 D201</option><option>教学楼 D202</option></select></div>
+      </div>
+      <p id="booking-count" class="muted"></p>
+      <div class="table-wrap"><table><caption>保存在当前浏览器的预约</caption><thead><tr><th scope="col">昵称</th><th scope="col">房间</th><th scope="col">日期</th><th scope="col">时段</th><th scope="col">操作</th></tr></thead><tbody id="booking-rows"></tbody></table></div>
+      <p id="booking-empty" class="empty">还没有预约记录。</p>
+    </section>
+  </main>
+  <footer>localStorage 仅在同一浏览器和同一网站地址中保存；清除浏览器站点数据会清除记录。</footer>
+</body>
+</html>
