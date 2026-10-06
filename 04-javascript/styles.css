@@ -1,0 +1,33 @@
+:root { color-scheme: light; font-family: Arial, "Microsoft YaHei", sans-serif; color: #18312d; background: #f3f6f4; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.65; }
+a { color: #176c56; }
+header { background: #163f35; color: #fff; padding: 24px max(20px, calc((100vw - 1100px) / 2)); }
+header a { color: #e0f4ea; }
+header h1 { margin: 8px 0; font-size: clamp(1.6rem, 4vw, 2.2rem); }
+nav { display: flex; flex-wrap: wrap; gap: 18px; }
+main { max-width: 1100px; padding: 24px 20px 48px; margin: auto; }
+section { background: #fff; border: 1px solid #dce5df; border-radius: 12px; margin-bottom: 20px; padding: 24px; }
+h2 { margin: 0 0 16px; font-size: 1.2rem; }
+p { margin: 8px 0 16px; }
+label { display: block; font-weight: bold; margin: 12px 0 6px; }
+textarea { width: 100%; min-height: 235px; resize: vertical; font: 0.9rem/1.6 Consolas, monospace; padding: 12px; border: 1px solid #93afa2; border-radius: 6px; }
+button { font: inherit; cursor: pointer; border: 1px solid #176c56; border-radius: 6px; padding: 8px 16px; background: #176c56; color: #fff; }
+button.secondary { background: #fff; color: #176c56; }
+button:hover { filter: brightness(0.95); }
+:focus-visible { outline: 3px solid #ca9b2f; outline-offset: 3px; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+.hint, .muted { color: #546960; font-size: 0.95rem; }
+.status { margin-top: 14px; min-height: 1.7em; }
+.status.error { color: #a12e25; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.stat { background: #edf5ef; padding: 16px; border-radius: 8px; }
+.stat strong { display: block; font-size: 1.6rem; color: #145740; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; white-space: nowrap; }
+th, td { padding: 11px 12px; border-bottom: 1px solid #e2e9e4; text-align: left; }
+th { background: #f1f5f2; }
+.empty { padding: 20px; color: #546960; text-align: center; }
+.invalid { color: #a12e25; }
+footer { max-width: 1100px; margin: auto; padding: 0 20px 30px; color: #546960; }
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, 1fr); } section { padding: 18px; } main { padding: 18px 12px 32px; } }
