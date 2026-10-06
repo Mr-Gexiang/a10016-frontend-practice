@@ -1,0 +1,33 @@
+:root { --ink: #183a38; --muted: #526b66; --accent: #247568; --line: #dce8e2; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f8f5; color: var(--ink); font: 16px/1.75 "Microsoft YaHei", "PingFang SC", sans-serif; }
+a { color: var(--accent); text-underline-offset: 4px; }
+a:focus-visible { outline: 3px solid #dbad50; outline-offset: 4px; }
+.container { width: min(1080px, calc(100% - 40px)); margin-inline: auto; }
+.site-header { background: #fff; border-bottom: 1px solid var(--line); }
+nav { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding-block: 20px; }
+.brand { color: var(--ink); font-size: 20px; font-weight: 700; text-decoration: none; }
+.nav-links { display: flex; gap: 22px; flex-wrap: wrap; }
+main { padding-block: 36px 20px; }
+.hero { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-block: 8px 36px; }
+.eyebrow { color: var(--accent); font-size: 14px; font-weight: 700; letter-spacing: 1px; }
+h1 { margin-block: 12px 20px; font-size: clamp(28px, 4vw, 42px); line-height: 1.35; }
+h2 { margin-top: 0; font-size: 23px; }
+p { margin-block: 14px; }
+figure { margin: 0; }
+img { display: block; width: 100%; height: auto; border-radius: 14px; }
+figcaption { padding-top: 8px; font-size: 13px; color: var(--muted); }
+.button { display: inline-block; margin-top: 12px; padding: 11px 22px; background: var(--accent); color: #fff; border-radius: 7px; text-decoration: none; }
+.panel { padding: 28px; margin-bottom: 22px; background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+ul, ol { padding-left: 24px; }
+li { margin-block: 9px; }
+.resources a { display: inline-block; margin-right: 26px; margin-bottom: 6px; }
+.profile-image { max-width: 500px; margin-top: 20px; }
+footer { padding-block: 24px; color: var(--muted); font-size: 14px; }
+@media (max-width: 680px) {
+  .container { width: calc(100% - 28px); }
+  nav { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .hero { grid-template-columns: 1fr; gap: 20px; }
+  .panel { padding: 20px; }
+  main { padding-top: 22px; }
+}
