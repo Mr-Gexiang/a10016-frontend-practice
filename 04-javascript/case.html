@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>班级成绩统计 · 案例复现</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="grades.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="作业导航"><a href="../index.html">作业目录</a><a href="index.html">自主实践：占用率统计</a></nav>
+    <h1>班级成绩统计</h1>
+    <p>使用数组、对象和函数清洗成绩，计算平均分、最高分和不及格名单。</p>
+  </header>
+  <main>
+    <section aria-labelledby="input-heading">
+      <h2 id="input-heading">输入成绩数组</h2>
+      <p class="hint" id="grade-help">记录格式为 {"name":"示例同学","score":92}；有效分数为 0—100 的数字。等级：A ≥ 90、B ≥ 80、C ≥ 70、D ≥ 60、F &lt; 60。</p>
+      <form id="grade-form">
+        <label for="grade-input">JSON 数据</label><textarea id="grade-input" aria-describedby="grade-help" spellcheck="false"></textarea>
+        <div class="actions"><button type="submit">统计成绩</button><button type="button" class="secondary" id="grade-demo">恢复案例数据</button><button type="button" class="secondary" id="grade-empty">空数组</button></div>
+        <p id="grade-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section aria-labelledby="result-heading">
+      <h2 id="result-heading">统计结果</h2>
+      <div class="stats"><div class="stat">有效人数<strong id="student-count">0</strong></div><div class="stat">平均分<strong id="average-score">—</strong></div><div class="stat">最高分<strong id="highest-score">—</strong></div><div class="stat">平均分等级<strong id="average-grade">—</strong></div></div>
+      <p id="failed-students"></p>
+      <div class="table-wrap"><table><caption>有效成绩及等级</caption><thead><tr><th scope="col">姓名</th><th scope="col">成绩</th><th scope="col">等级</th></tr></thead><tbody id="grade-rows"></tbody></table></div>
+      <p id="grade-result-empty" class="empty" hidden>暂无有效成绩。</p>
+    </section>
+  </main>
+  <footer>案例姓名为演示昵称。统计结果同时输出到浏览器控制台。</footer>
+</body>
+</html>
