@@ -1,0 +1,510 @@
+[
+  {
+    "test": "01-html平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "02-form平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "03-responsive平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "04-javascript平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "05-dom平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "06-dashboard平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "07-3d平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "08-integration平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "09-final平板布局768px",
+    "pass": true,
+    "actual": {
+      "scroll": 753,
+      "width": 768
+    }
+  },
+  {
+    "test": "09加载失败后切换楼层保留提示",
+    "pass": true,
+    "actual": "数据加载失败，请检查本地服务器或稍后重试。"
+  },
+  {
+    "test": "09空数据后切换楼层保留提示",
+    "pass": true,
+    "actual": "暂无自习室数据，请稍后再试。"
+  },
+  {
+    "test": "index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "软件开发综合实践",
+      "scroll": 1265,
+      "title": "软件开发综合实践 九项作业",
+      "width": 1280
+    }
+  },
+  {
+    "test": "01-html/case.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "欢迎来到我的个人主页",
+      "scroll": 1265,
+      "title": "个人主页 · 案例复现",
+      "width": 1280
+    }
+  },
+  {
+    "test": "01-html/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "给专注学习留一个位置",
+      "scroll": 1265,
+      "title": "校园自习室 · HTML介绍页",
+      "width": 1280
+    }
+  },
+  {
+    "test": "02-form/case.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "Web前端课程反馈表",
+      "scroll": 1265,
+      "title": "课程反馈采集 · 案例复现",
+      "width": 1280
+    }
+  },
+  {
+    "test": "02-form/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "安排下一次专注学习",
+      "scroll": 1265,
+      "title": "自习室预约 · 语义化HTML与表单",
+      "width": 1280
+    }
+  },
+  {
+    "test": "03-responsive/case.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "前端开发课程中心",
+      "scroll": 1265,
+      "title": "课程展示 · CSS布局案例",
+      "width": 1280
+    }
+  },
+  {
+    "test": "03-responsive/case-bootstrap.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "前端开发课程中心",
+      "scroll": 1265,
+      "title": "课程展示 · Bootstrap布局案例",
+      "width": 1280
+    }
+  },
+  {
+    "test": "03-responsive/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "找到适合你的学习空间",
+      "scroll": 1265,
+      "title": "自习空间展示 · 响应式布局",
+      "width": 1280
+    }
+  },
+  {
+    "test": "04-javascript/case.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "班级成绩统计",
+      "scroll": 1265,
+      "title": "班级成绩统计 · 案例复现",
+      "width": 1280
+    }
+  },
+  {
+    "test": "04-javascript/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室占用率统计",
+      "scroll": 1265,
+      "title": "自习室占用率统计 · JavaScript 基础",
+      "width": 1280
+    }
+  },
+  {
+    "test": "05-dom/case.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "Todo 清单",
+      "scroll": 1280,
+      "title": "Todo 清单 · 案例复现",
+      "width": 1280
+    }
+  },
+  {
+    "test": "05-dom/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室预约管理",
+      "scroll": 1265,
+      "title": "自习室预约管理 · DOM 与交互",
+      "width": 1280
+    }
+  },
+  {
+    "test": "06-dashboard/case.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "校园图书数据看板",
+      "scroll": 1280,
+      "title": "图书数据看板 · 案例复现",
+      "width": 1280
+    }
+  },
+  {
+    "test": "06-dashboard/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室统计看板",
+      "scroll": 1265,
+      "title": "自习室统计看板 · 作业六",
+      "width": 1280
+    }
+  },
+  {
+    "test": "07-3d/case-three.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "旋转展示台",
+      "scroll": 1280,
+      "title": "旋转展示台 · Three.js案例",
+      "width": 1280
+    }
+  },
+  {
+    "test": "07-3d/case-aframe.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "校园漫游",
+      "scroll": 1280,
+      "title": "校园漫游 · A-Frame案例",
+      "width": 1280
+    }
+  },
+  {
+    "test": "07-3d/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "走进静心自习室",
+      "scroll": 1280,
+      "title": "三维自习室 · 作业七",
+      "width": 1280
+    }
+  },
+  {
+    "test": "08-integration/case.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "案例复现 迷你版校园信息中心",
+      "scroll": 1265,
+      "title": "案例复现 迷你版校园信息中心",
+      "width": 1280
+    }
+  },
+  {
+    "test": "08-integration/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "迷你版校园信息中心",
+      "scroll": 1265,
+      "title": "迷你版校园信息中心",
+      "width": 1280
+    }
+  },
+  {
+    "test": "08-integration/rooms.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室查询",
+      "scroll": 1265,
+      "title": "自习室查询",
+      "width": 1280
+    }
+  },
+  {
+    "test": "08-integration/statistics.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室使用统计",
+      "scroll": 1265,
+      "title": "自习室使用统计",
+      "width": 1280
+    }
+  },
+  {
+    "test": "08-integration/scene.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室三维展示",
+      "scroll": 1265,
+      "title": "自习室三维展示",
+      "width": 1280
+    }
+  },
+  {
+    "test": "09-final/index.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "信息与数据展示中心 校园自习室",
+      "scroll": 1265,
+      "title": "信息与数据展示中心 校园自习室",
+      "width": 1280
+    }
+  },
+  {
+    "test": "09-final/rooms.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室查询",
+      "scroll": 1265,
+      "title": "自习室查询",
+      "width": 1280
+    }
+  },
+  {
+    "test": "09-final/statistics.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室使用统计",
+      "scroll": 1265,
+      "title": "自习室使用统计",
+      "width": 1280
+    }
+  },
+  {
+    "test": "09-final/scene.html页面打开",
+    "pass": true,
+    "actual": {
+      "h1": "自习室三维展示",
+      "scroll": 1265,
+      "title": "自习室三维展示",
+      "width": 1280
+    }
+  },
+  {
+    "test": "06楼层筛选",
+    "pass": true,
+    "actual": "可用座位\n43个\n当前使用人数\n77人\n座位使用率\n64.2%\n各自习室当前人数\n\n单位：人 · 移动到柱形可查看详情\n\n全天使用人数趋势\n\n单位：人 · 08:00—22:00\n\n数据来源：自建演示JSON，非真实校园统计。楼层筛选同时更新统计卡片和两张图表。"
+  },
+  {
+    "test": "04非法JSON提示",
+    "pass": true,
+    "actual": "JSON 格式错误，请检查引号、逗号和括号。"
+  },
+  {
+    "test": "02表单必填",
+    "actual": "空表单提交被浏览器校验阻止，nickname.valueMissing为true",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "02有效表单",
+    "actual": "填写演示数据后显示校验通过、演示提交成功；未发送数据",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "04成绩案例",
+    "actual": "5条有效成绩，平均72.20，最高92，等级C，不及格2人",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "04空数组",
+    "actual": "有效人数0，平均和最高显示破折号，暂无有效成绩",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "05新增预约",
+    "actual": "新增测试记录后共1条预约",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "05刷新恢复",
+    "actual": "刷新后仍显示同一条测试预约",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "05修改预约",
+    "actual": "将测试记录改为修改测试，列表更新",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "05搜索",
+    "actual": "输入不存在，当前显示0条；清空恢复",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "05删除预约",
+    "actual": "删除本次测试记录后共0条，显示无记录提示",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "07Three.js",
+    "actual": "真实截图显示桌椅、书架和台灯；暂停按钮切换为继续动画",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "07A-Frame",
+    "actual": "真实截图显示校园楼房、草地、树木和路径",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "09楼层查询",
+    "actual": "选择1楼后返回4间",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "09名称查询",
+    "actual": "查询101后返回1间",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "09非法条件",
+    "actual": "输入空余座位-1，显示0至200之间整数提示",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "09空数据",
+    "actual": "?state=empty显示暂无自习室数据",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "09请求失败",
+    "actual": "?state=error触发真实404，页面显示加载失败",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "09双图统计",
+    "actual": "8间房间和8个时段，总座位260，占用168，占用率64.62%",
+    "method": "浏览器操作与截图观察",
+    "pass": true
+  },
+  {
+    "test": "01-html手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "02-form手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "03-responsive手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "04-javascript手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "05-dom手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "06-dashboard手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "07-3d手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "08-integration手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  },
+  {
+    "test": "09-final手机布局375px",
+    "pass": true,
+    "actual": "浏览器视口375px，页面宽度360px，无水平溢出",
+    "method": "前序浏览器DOM检查"
+  }
+]

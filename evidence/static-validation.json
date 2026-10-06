@@ -1,0 +1,2212 @@
+{
+  "scope": "Read-only validation of project-owned source, excluding vendor JS syntax checks; no browser execution.",
+  "checkedAt": "2026-10-06T06:25:16.951Z",
+  "htmlFiles": [
+    "01-html/case.html",
+    "01-html/index.html",
+    "02-form/case.html",
+    "02-form/index.html",
+    "03-responsive/case-bootstrap.html",
+    "03-responsive/case.html",
+    "03-responsive/index.html",
+    "04-javascript/case.html",
+    "04-javascript/index.html",
+    "05-dom/case.html",
+    "05-dom/index.html",
+    "06-dashboard/case.html",
+    "06-dashboard/index.html",
+    "07-3d/case-aframe.html",
+    "07-3d/case-three.html",
+    "07-3d/index.html",
+    "08-integration/case.html",
+    "08-integration/index.html",
+    "08-integration/rooms.html",
+    "08-integration/scene.html",
+    "08-integration/statistics.html",
+    "09-final/index.html",
+    "09-final/rooms.html",
+    "09-final/scene.html",
+    "09-final/statistics.html",
+    "index.html"
+  ],
+  "resources": [
+    {
+      "source": "01-html/case.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "01-html/style.css",
+      "exists": true
+    },
+    {
+      "source": "01-html/case.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "01-html/case.html",
+      "exists": true
+    },
+    {
+      "source": "01-html/case.html",
+      "line": 13,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "01-html/case.html",
+      "line": 13,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "01-html/index.html",
+      "exists": true
+    },
+    {
+      "source": "01-html/case.html",
+      "line": 24,
+      "kind": "img-src",
+      "value": "../shared/study-room.jpg",
+      "target": "shared/study-room.jpg",
+      "exists": true
+    },
+    {
+      "source": "01-html/index.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "01-html/style.css",
+      "exists": true
+    },
+    {
+      "source": "01-html/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "01-html/index.html",
+      "exists": true
+    },
+    {
+      "source": "01-html/index.html",
+      "line": 13,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "01-html/index.html",
+      "line": 13,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "01-html/case.html",
+      "exists": true
+    },
+    {
+      "source": "01-html/index.html",
+      "line": 22,
+      "kind": "a-href",
+      "value": "../02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "01-html/index.html",
+      "line": 25,
+      "kind": "img-src",
+      "value": "../shared/study-room.jpg",
+      "target": "shared/study-room.jpg",
+      "exists": true
+    },
+    {
+      "source": "02-form/case.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "02-form/style.css",
+      "exists": true
+    },
+    {
+      "source": "02-form/case.html",
+      "line": 8,
+      "kind": "script-src",
+      "value": "form.js",
+      "target": "02-form/form.js",
+      "exists": true
+    },
+    {
+      "source": "02-form/case.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "02-form/case.html",
+      "exists": true
+    },
+    {
+      "source": "02-form/case.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "02-form/case.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "02-form/index.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "02-form/style.css",
+      "exists": true
+    },
+    {
+      "source": "02-form/index.html",
+      "line": 8,
+      "kind": "script-src",
+      "value": "form.js",
+      "target": "02-form/form.js",
+      "exists": true
+    },
+    {
+      "source": "02-form/index.html",
+      "line": 13,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "02-form/index.html",
+      "line": 14,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "02-form/index.html",
+      "line": 14,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "02-form/case.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case-bootstrap.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "../vendor/bootstrap.min.css",
+      "target": "vendor/bootstrap.min.css",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case-bootstrap.html",
+      "line": 8,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "03-responsive/style.css",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case-bootstrap.html",
+      "line": 9,
+      "kind": "script-src",
+      "value": "../vendor/bootstrap.bundle.min.js",
+      "target": "vendor/bootstrap.bundle.min.js",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case-bootstrap.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "case-bootstrap.html",
+      "target": "03-responsive/case-bootstrap.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case-bootstrap.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case-bootstrap.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "03-responsive/case.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case-bootstrap.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "03-responsive/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "03-responsive/style.css",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "03-responsive/case.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "case-bootstrap.html",
+      "target": "03-responsive/case-bootstrap.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/case.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "03-responsive/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "../vendor/bootstrap.min.css",
+      "target": "vendor/bootstrap.min.css",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 8,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "03-responsive/style.css",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 9,
+      "kind": "script-src",
+      "value": "../vendor/bootstrap.bundle.min.js",
+      "target": "vendor/bootstrap.bundle.min.js",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 14,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "03-responsive/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 16,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 16,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "03-responsive/case.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 16,
+      "kind": "a-href",
+      "value": "case-bootstrap.html",
+      "target": "03-responsive/case-bootstrap.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 24,
+      "kind": "a-href",
+      "value": "../02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 25,
+      "kind": "a-href",
+      "value": "../02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 26,
+      "kind": "a-href",
+      "value": "../02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 27,
+      "kind": "a-href",
+      "value": "../02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 28,
+      "kind": "a-href",
+      "value": "../02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "03-responsive/index.html",
+      "line": 29,
+      "kind": "a-href",
+      "value": "../02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/case.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "styles.css",
+      "target": "04-javascript/styles.css",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/case.html",
+      "line": 8,
+      "kind": "script-src",
+      "value": "grades.js",
+      "target": "04-javascript/grades.js",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/case.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/case.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "04-javascript/index.html",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/index.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "styles.css",
+      "target": "04-javascript/styles.css",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/index.html",
+      "line": 8,
+      "kind": "script-src",
+      "value": "occupancy.js",
+      "target": "04-javascript/occupancy.js",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "04-javascript/case.html",
+      "exists": true
+    },
+    {
+      "source": "04-javascript/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "05-dom/case.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "styles.css",
+      "target": "05-dom/styles.css",
+      "exists": true
+    },
+    {
+      "source": "05-dom/case.html",
+      "line": 8,
+      "kind": "script-src",
+      "value": "todo.js",
+      "target": "05-dom/todo.js",
+      "exists": true
+    },
+    {
+      "source": "05-dom/case.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "05-dom/case.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "05-dom/index.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "styles.css",
+      "target": "05-dom/styles.css",
+      "exists": true
+    },
+    {
+      "source": "05-dom/index.html",
+      "line": 8,
+      "kind": "script-src",
+      "value": "reservations.js",
+      "target": "05-dom/reservations.js",
+      "exists": true
+    },
+    {
+      "source": "05-dom/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "05-dom/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "05-dom/case.html",
+      "exists": true
+    },
+    {
+      "source": "05-dom/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../04-javascript/index.html",
+      "target": "04-javascript/index.html",
+      "exists": true
+    },
+    {
+      "source": "05-dom/index.html",
+      "line": 12,
+      "kind": "a-href",
+      "value": "../06-dashboard/index.html",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "06-dashboard/style.css",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 26,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "06-dashboard/case.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 26,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 28,
+      "kind": "script-src",
+      "value": "../vendor/echarts.min.js",
+      "target": "vendor/echarts.min.js",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 29,
+      "kind": "script-src",
+      "value": "../vendor/chart.umd.js",
+      "target": "vendor/chart.umd.js",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/case.html",
+      "line": 30,
+      "kind": "script-src",
+      "value": "case.js",
+      "target": "06-dashboard/case.js",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "06-dashboard/style.css",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "case.html",
+      "target": "06-dashboard/case.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 10,
+      "kind": "a-href",
+      "value": "../07-3d/index.html",
+      "target": "07-3d/index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 27,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 27,
+      "kind": "a-href",
+      "value": "index.html?state=empty",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 27,
+      "kind": "a-href",
+      "value": "index.html?state=error",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 29,
+      "kind": "script-src",
+      "value": "../vendor/jquery.min.js",
+      "target": "vendor/jquery.min.js",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 30,
+      "kind": "script-src",
+      "value": "../vendor/echarts.min.js",
+      "target": "vendor/echarts.min.js",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 31,
+      "kind": "script-src",
+      "value": "../vendor/chart.umd.js",
+      "target": "vendor/chart.umd.js",
+      "exists": true
+    },
+    {
+      "source": "06-dashboard/index.html",
+      "line": 32,
+      "kind": "script-src",
+      "value": "dashboard.js",
+      "target": "06-dashboard/dashboard.js",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-aframe.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "07-3d/style.css",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-aframe.html",
+      "line": 8,
+      "kind": "script-src",
+      "value": "../vendor/aframe.min.js",
+      "target": "vendor/aframe.min.js",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-aframe.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-aframe.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "case-three.html",
+      "target": "07-3d/case-three.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-aframe.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "07-3d/index.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-aframe.html",
+      "line": 47,
+      "kind": "script-src",
+      "value": "case-aframe.js",
+      "target": "07-3d/case-aframe.js",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-three.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "07-3d/style.css",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-three.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-three.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "case-aframe.html",
+      "target": "07-3d/case-aframe.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-three.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "07-3d/index.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-three.html",
+      "line": 8,
+      "kind": "importmap",
+      "value": "../vendor/three.module.js",
+      "target": "vendor/three.module.js",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-three.html",
+      "line": 20,
+      "kind": "module-import",
+      "value": "./case-three.js",
+      "target": "07-3d/case-three.js",
+      "exists": true
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 7,
+      "kind": "link-href",
+      "value": "style.css",
+      "target": "07-3d/style.css",
+      "exists": true
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "case-three.html",
+      "target": "07-3d/case-three.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "case-aframe.html",
+      "target": "07-3d/case-aframe.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 11,
+      "kind": "a-href",
+      "value": "../06-dashboard/index.html",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 8,
+      "kind": "importmap",
+      "value": "../vendor/three.module.js",
+      "target": "vendor/three.module.js",
+      "exists": true
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 22,
+      "kind": "module-import",
+      "value": "./room.js",
+      "target": "07-3d/room.js",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "08-integration/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "08-integration/scene.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/case.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "08-integration/scene.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "08-integration/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "08-integration/scene.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "08-integration/scene.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "08-integration/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "08-integration/scene.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html?state=empty",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html?state=error",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/jquery.min.js",
+      "target": "vendor/jquery.min.js",
+      "exists": true
+    },
+    {
+      "source": "08-integration/rooms.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../09-final/app.js",
+      "target": "09-final/app.js",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "08-integration/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "08-integration/scene.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/scene.html",
+      "line": 1,
+      "kind": "iframe-src",
+      "value": "../07-3d/index.html",
+      "target": "07-3d/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "08-integration/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "08-integration/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "08-integration/scene.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html?state=empty",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html?state=error",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "08-integration/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/echarts.min.js",
+      "target": "vendor/echarts.min.js",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/chart.umd.js",
+      "target": "vendor/chart.umd.js",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/jquery.min.js",
+      "target": "vendor/jquery.min.js",
+      "exists": true
+    },
+    {
+      "source": "08-integration/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../09-final/app.js",
+      "target": "09-final/app.js",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "09-final/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "09-final/scene.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "09-final/scene.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "09-final/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "09-final/scene.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html?state=empty",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html?state=error",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/jquery.min.js",
+      "target": "vendor/jquery.min.js",
+      "exists": true
+    },
+    {
+      "source": "09-final/rooms.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../09-final/app.js",
+      "target": "09-final/app.js",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "09-final/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "09-final/scene.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/scene.html",
+      "line": 1,
+      "kind": "iframe-src",
+      "value": "../07-3d/index.html",
+      "target": "07-3d/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "../shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "index.html",
+      "target": "09-final/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "rooms.html",
+      "target": "09-final/rooms.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "scene.html",
+      "target": "09-final/scene.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "../index.html",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html?state=empty",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html?state=error",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "statistics.html",
+      "target": "09-final/statistics.html",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/echarts.min.js",
+      "target": "vendor/echarts.min.js",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/chart.umd.js",
+      "target": "vendor/chart.umd.js",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../vendor/jquery.min.js",
+      "target": "vendor/jquery.min.js",
+      "exists": true
+    },
+    {
+      "source": "09-final/statistics.html",
+      "line": 1,
+      "kind": "script-src",
+      "value": "../09-final/app.js",
+      "target": "09-final/app.js",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "shared/base.css",
+      "target": "shared/base.css",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "link-href",
+      "value": "shared/favicon.svg",
+      "target": "shared/favicon.svg",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "01-html/index.html",
+      "target": "01-html/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "02-form/index.html",
+      "target": "02-form/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "03-responsive/index.html",
+      "target": "03-responsive/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "04-javascript/index.html",
+      "target": "04-javascript/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "05-dom/index.html",
+      "target": "05-dom/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "06-dashboard/index.html",
+      "target": "06-dashboard/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "07-3d/index.html",
+      "target": "07-3d/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "08-integration/index.html",
+      "target": "08-integration/index.html",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "line": 1,
+      "kind": "a-href",
+      "value": "09-final/index.html",
+      "target": "09-final/index.html",
+      "exists": true
+    },
+    {
+      "source": "07-3d/case-three.js",
+      "line": 2,
+      "kind": "module-import",
+      "value": "../vendor/OrbitControls.js",
+      "target": "vendor/OrbitControls.js",
+      "exists": true
+    },
+    {
+      "source": "07-3d/room.js",
+      "line": 2,
+      "kind": "module-import",
+      "value": "../vendor/OrbitControls.js",
+      "target": "vendor/OrbitControls.js",
+      "exists": true
+    }
+  ],
+  "jsSyntax": [
+    {
+      "source": "02-form/form.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "04-javascript/grades.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "04-javascript/occupancy.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "05-dom/reservations.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "05-dom/todo.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "06-dashboard/case.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "06-dashboard/dashboard.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "07-3d/case-aframe.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "07-3d/case-three.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "07-3d/room.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "09-final/app.js",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "inlineSyntax": [
+    {
+      "source": "07-3d/case-three.html",
+      "line": 19,
+      "module": true,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 21,
+      "module": true,
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "moduleReferences": [
+    {
+      "source": "07-3d/case-three.html",
+      "line": 20,
+      "specifier": "./case-three.js",
+      "kind": "relative"
+    },
+    {
+      "source": "07-3d/index.html",
+      "line": 22,
+      "specifier": "./room.js",
+      "kind": "relative"
+    },
+    {
+      "source": "07-3d/case-three.js",
+      "line": 1,
+      "specifier": "three",
+      "kind": "bare-importmap"
+    },
+    {
+      "source": "07-3d/case-three.js",
+      "line": 2,
+      "specifier": "../vendor/OrbitControls.js",
+      "kind": "relative"
+    },
+    {
+      "source": "07-3d/room.js",
+      "line": 1,
+      "specifier": "three",
+      "kind": "bare-importmap"
+    },
+    {
+      "source": "07-3d/room.js",
+      "line": 2,
+      "specifier": "../vendor/OrbitControls.js",
+      "kind": "relative"
+    }
+  ],
+  "jsonChecks": [
+    {
+      "name": "room-count",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "name": "capacity-total",
+      "actual": 260,
+      "expected": 260,
+      "passed": true
+    },
+    {
+      "name": "occupied-total",
+      "actual": 168,
+      "expected": 168,
+      "passed": true
+    },
+    {
+      "name": "trend-point-count",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "name": "last-trend-total",
+      "actual": 168,
+      "expected": 168,
+      "passed": true
+    },
+    {
+      "name": "trend-floor1-within-capacity",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "trend-floor2-within-capacity",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "pureFunctionTests": [
+    {
+      "name": "all-rooms",
+      "expression": "filterRooms(rooms,\"all\",\"\",0).length",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "name": "floor-1",
+      "expression": "filterRooms(rooms,\"1\",\"\",0).map(r=>r.name)",
+      "actual": [
+        "101",
+        "102",
+        "103",
+        "104"
+      ],
+      "expected": [
+        "101",
+        "102",
+        "103",
+        "104"
+      ],
+      "passed": true
+    },
+    {
+      "name": "floor-2",
+      "expression": "filterRooms(rooms,\"2\",\"\",0).map(r=>r.name)",
+      "actual": [
+        "201",
+        "202",
+        "203",
+        "204"
+      ],
+      "expected": [
+        "201",
+        "202",
+        "203",
+        "204"
+      ],
+      "passed": true
+    },
+    {
+      "name": "keyword-01",
+      "expression": "filterRooms(rooms,\"all\",\"01\",0).map(r=>r.name)",
+      "actual": [
+        "101",
+        "201"
+      ],
+      "expected": [
+        "101",
+        "201"
+      ],
+      "passed": true
+    },
+    {
+      "name": "keyword-no-match",
+      "expression": "filterRooms(rooms,\"all\",\"不存在\",0)",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "name": "minimum-12",
+      "expression": "filterRooms(rooms,\"all\",\"\",12).map(r=>r.name)",
+      "actual": [
+        "101",
+        "102",
+        "201",
+        "202",
+        "203"
+      ],
+      "expected": [
+        "101",
+        "102",
+        "201",
+        "202",
+        "203"
+      ],
+      "passed": true
+    },
+    {
+      "name": "minimum-13",
+      "expression": "filterRooms(rooms,\"all\",\"\",13).map(r=>r.name)",
+      "actual": [
+        "201",
+        "202"
+      ],
+      "expected": [
+        "201",
+        "202"
+      ],
+      "passed": true
+    },
+    {
+      "name": "minimum-15-boundary",
+      "expression": "filterRooms(rooms,\"all\",\"\",15).map(r=>r.name)",
+      "actual": [
+        "201"
+      ],
+      "expected": [
+        "201"
+      ],
+      "passed": true
+    },
+    {
+      "name": "minimum-16-empty",
+      "expression": "filterRooms(rooms,\"all\",\"\",16)",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "name": "combined-filter",
+      "expression": "filterRooms(rooms,\"2\",\"20\",12).map(r=>r.name)",
+      "actual": [
+        "201",
+        "202",
+        "203"
+      ],
+      "expected": [
+        "201",
+        "202",
+        "203"
+      ],
+      "passed": true
+    },
+    {
+      "name": "empty-input",
+      "expression": "filterRooms([],\"all\",\"\",0)",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "name": "all-summary",
+      "expression": "summarizeRooms(rooms)",
+      "actual": {
+        "capacity": 260,
+        "occupied": 168,
+        "rate": "64.62%"
+      },
+      "expected": {
+        "capacity": 260,
+        "occupied": 168,
+        "rate": "64.62%"
+      },
+      "passed": true
+    },
+    {
+      "name": "floor-1-summary",
+      "expression": "summarizeRooms(filterRooms(rooms,\"1\",\"\",0))",
+      "actual": {
+        "capacity": 120,
+        "occupied": 77,
+        "rate": "64.17%"
+      },
+      "expected": {
+        "capacity": 120,
+        "occupied": 77,
+        "rate": "64.17%"
+      },
+      "passed": true
+    },
+    {
+      "name": "floor-2-summary",
+      "expression": "summarizeRooms(filterRooms(rooms,\"2\",\"\",0))",
+      "actual": {
+        "capacity": 140,
+        "occupied": 91,
+        "rate": "65.00%"
+      },
+      "expected": {
+        "capacity": 140,
+        "occupied": 91,
+        "rate": "65.00%"
+      },
+      "passed": true
+    },
+    {
+      "name": "empty-summary",
+      "expression": "summarizeRooms([])",
+      "actual": {
+        "capacity": 0,
+        "occupied": 0,
+        "rate": "0.00%"
+      },
+      "expected": {
+        "capacity": 0,
+        "occupied": 0,
+        "rate": "0.00%"
+      },
+      "passed": true
+    }
+  ],
+  "issues": [],
+  "intentionalMissingResources": [
+    {
+      "path": "06-dashboard/data/missing.json",
+      "reason": "state=error demo intentionally requests a nonexistent file"
+    },
+    {
+      "path": "09-final/missing.json",
+      "reason": "state=error demo intentionally requests a nonexistent file"
+    }
+  ],
+  "summary": {
+    "htmlFiles": 26,
+    "localReferences": 226,
+    "jsFiles": 11,
+    "inlineScripts": 2,
+    "jsonChecks": 7,
+    "pureFunctionTests": 15,
+    "issues": 0
+  }
+}
