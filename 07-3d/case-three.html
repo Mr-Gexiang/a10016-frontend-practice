@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>旋转展示台 · Three.js案例</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"../vendor/three.module.js"}}</script>
+</head>
+<body>
+  <header class="topbar"><a href="../index.html">← 作业目录</a><nav><a href="case-aframe.html">A-Frame案例</a><a href="index.html">自主作品 →</a></nav></header>
+  <main>
+    <p class="eyebrow">07 / THREE.JS 案例复现</p><h1>旋转展示台</h1>
+    <p class="subtitle">圆柱底座上展示立方体、球体和圆环，观察光照与旋转。</p>
+    <div class="controls"><button id="pause" type="button" aria-pressed="false">暂停旋转</button><button id="reset" type="button">恢复视角</button><span>拖动旋转 · 滚轮缩放 · 右键平移</span></div>
+    <div id="stage" class="stage"><p id="render-status" class="status" role="status">正在加载展示台……</p></div>
+    <footer>环境光与方向光共同照明，OrbitControls控制视角，窗口变化时同步更新画布与相机。</footer>
+  </main>
+  <script type="module">
+    import('./case-three.js').catch(error => {
+      const status = document.getElementById('render-status');
+      status.hidden = false;
+      status.classList.add('error');
+      status.textContent = `场景加载失败：${error.message}。请确认HTTP运行方式和WebGL支持。`;
+    });
+  </script>
+</body>
+</html>
