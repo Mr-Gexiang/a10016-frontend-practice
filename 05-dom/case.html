@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Todo 清单 · 案例复现</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="todo.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="作业导航"><a href="../index.html">作业目录</a><a href="index.html">自主实践：预约管理</a></nav>
+    <h1>Todo 清单</h1>
+    <p>练习 DOM、事件与本地保存：添加待办，切换完成状态，删除和过滤。</p>
+  </header>
+  <main>
+    <section aria-labelledby="add-heading">
+      <h2 id="add-heading">添加待办</h2>
+      <form id="todo-form" class="todo-form" novalidate>
+        <div><label for="todo-input">待办内容</label><input id="todo-input" name="text" maxlength="100" required autocomplete="off" placeholder="例如：整理课堂笔记"></div><button type="submit">添加</button>
+      </form>
+      <p id="todo-status" class="status" role="status" aria-live="polite"></p>
+    </section>
+    <section aria-labelledby="list-heading">
+      <h2 id="list-heading">我的待办</h2>
+      <div class="todo-filters" role="group" aria-label="待办状态筛选"><button class="secondary" id="filter-all" type="button" data-filter="all" aria-pressed="true">全部</button><button class="secondary" id="filter-active" type="button" data-filter="active" aria-pressed="false">未完成</button><button class="secondary" id="filter-completed" type="button" data-filter="completed" aria-pressed="false">已完成</button></div>
+      <p id="todo-count" class="muted"></p><ul id="todo-list" class="todo-list" aria-label="待办列表"></ul><p id="todo-empty" class="empty">还没有待办，添加一条试试。</p>
+    </section>
+  </main>
+  <footer>任务保存在当前浏览器的 localStorage 中，刷新页面后恢复。</footer>
+</body>
+</html>
