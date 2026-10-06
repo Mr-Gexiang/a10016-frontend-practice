@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>课程展示 · Bootstrap布局案例</title>
+  <link rel="stylesheet" href="../vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="../vendor/bootstrap.bundle.min.js" defer></script>
+</head>
+<body class="bootstrap-page">
+  <header class="site-header"><nav class="navbar navbar-expand-md container" aria-label="作业导航"><a class="navbar-brand brand" href="case-bootstrap.html">课程展示</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#course-nav" aria-controls="course-nav" aria-expanded="false" aria-label="展开或收起导航"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="course-nav"><div class="navbar-nav ms-auto"><a class="nav-link" href="../index.html">作业目录</a><a class="nav-link" href="case.html">CSS版本</a><a class="nav-link" href="index.html">自主实践</a></div></div></nav></header>
+  <main class="container py-4 py-lg-5">
+    <section class="intro"><p class="eyebrow">课堂作业 03 · 案例复现 · Bootstrap版本</p><h1>前端开发课程中心</h1><p>相同课程内容改用 Bootstrap 栅格、导航栏、卡片与按钮组件展示。</p></section>
+    <section aria-labelledby="course-title"><div class="section-heading"><h2 id="course-title">推荐课程</h2><span class="layout-note">手机1列 · 平板2列 · 桌面3列</span></div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+        <div class="col"><article class="card h-100"><div class="card-body"><div class="course-label">HTML</div><h3 class="card-title">HTML基础</h3><p class="card-text">学习文档结构、常用标签和语义化页面组织。</p><a class="btn btn-outline-success" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML">查看课程资料</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="card-body"><div class="course-label">CSS</div><h3 class="card-title">CSS页面设计</h3><p class="card-text">掌握选择器、盒模型以及颜色、字体与间距设置。</p><a class="btn btn-outline-success" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS">查看课程资料</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="card-body"><div class="course-label">Layout</div><h3 class="card-title">响应式布局</h3><p class="card-text">通过 Flexbox、Grid 与媒体查询适配不同屏幕。</p><a class="btn btn-outline-success" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_grid_layout">查看课程资料</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="card-body"><div class="course-label">JavaScript</div><h3 class="card-title">JavaScript基础</h3><p class="card-text">学习变量、条件、循环、数组和函数等基础语法。</p><a class="btn btn-outline-success" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript">查看课程资料</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="card-body"><div class="course-label">DOM</div><h3 class="card-title">网页交互</h3><p class="card-text">操作页面元素，使用事件处理实现动态交互。</p><a class="btn btn-outline-success" href="https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model">查看课程资料</a></div></article></div>
+        <div class="col"><article class="card h-100"><div class="card-body"><div class="course-label">Bootstrap</div><h3 class="card-title">组件与栅格</h3><p class="card-text">利用栅格和常用组件完成规范的响应式页面。</p><a class="btn btn-outline-success" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">查看课程资料</a></div></article></div>
+      </div>
+    </section>
+    <aside class="layout-summary"><h2>两种实现的比较</h2><p>CSS版本直接控制 Grid 断点；Bootstrap版本使用响应式类声明列数。两者都在手机、平板与桌面屏幕保持卡片可读。</p></aside>
+  </main>
+  <footer class="container">课程展示案例 · Bootstrap布局</footer>
+</body>
+</html>
